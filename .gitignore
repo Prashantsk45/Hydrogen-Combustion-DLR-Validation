@@ -1,0 +1,67 @@
+# Gitignore
+hYDROGEN_files/
+CASE AND DATA/
+hYDROGEN.wbpj
+*.wbpj
+*.cas
+*.dat
+*.h5
+
+# Temp files
+*.log
+*.trn
+*.gz
+*.bat
+*.bak
+*.tmp
+cleanup-fluent-*
+*.pyc
+__pycache__/
+
+# Root-level raw images & temp PDFs
+/cbar_*.png
+/new_flame_*.png
+/new_radial_*.png
+/new_radial_*.pdf
+/orig_temp_pdf.png
+/Figure_03_Computational_Mesh_Frontal.*
+/Figure_08_12_Combustor_Field_Contours_Composite.*
+/combustor_mesh_grid.png
+
+# Root-level data extraction files
+/coarse_*
+/fine1_*
+/fine_*
+/medium_*
+/residuals_extracted_points.csv
+
+# ANSYS session files and journal macros
+/*.cse
+/*.jou
+
+# Root-level helper generation scripts & modifying scripts
+/generate_*
+/modify_*
+/embed_*
+/export_*
+/plot_new_cfd_profiles.py
+/plot_publish_ready.py
+/replot_figure_7_publication.py
+/restore_original_temp_curves.py
+
+# Temp reports
+/*_report.txt
+/walkthrough.md
+/hydrogen_combustion_research_specification.md
+
+# Temp Word lock files
+~$*
+~WRL*
+
+# Exclude manuscripts in raw format
+*.docx
+
+# Exclude markdown
+*.md
+
+!README.md

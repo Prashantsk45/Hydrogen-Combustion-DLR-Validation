@@ -1,0 +1,14 @@
+r_mm,Uz_mean_mps,Uz_rms_mps,Description
+-30.0,0.8,0.4,Outer wall boundary
+-25.0,16.5,0.9,Outer recirculation zone
+-20.0,18.2,1.1,Outer swirler channel
+-14.5,24.5,1.5,Swirler air jet peak
+-10.5,18.0,1.2,Separator lip velocity minimum
+-5.0,83.5,3.1,Fuel jet shear layer boundary
+0.0,97.8,3.5,Fuel nozzle centerline
+5.0,83.5,3.1,Fuel jet shear layer boundary
+10.5,18.0,1.2,Separator lip velocity minimum
+14.5,24.5,1.5,Swirler air jet peak
+20.0,18.2,1.1,Outer swirler channel
+25.0,16.5,0.9,Outer recirculation zone
+30.0,0.8,0.4,Outer wall boundary
